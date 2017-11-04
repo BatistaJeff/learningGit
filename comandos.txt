@@ -1,2 +1,6 @@
 git clone https://github.com/username/repositorio.git
 
+git add [file]
+
+git add .
+
