@@ -29,5 +29,9 @@ cria uma branch -> git branch [nome da nova branch]
 
 muda de branch -> git checkout [nome da branch]
 
+para comitar a nova branch ao servidor -> git push -u origin [nome da nova branch]
 
+mostra as branch remota -> git branch -r
+
+baixa a branch especifica do servidor -> git branch -t [nome da branch] origin/[nome da branch]
 
