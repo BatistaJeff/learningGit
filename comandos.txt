@@ -1,25 +1,33 @@
-git config --global user.email "trabalhojbm@gmail.com"
+seta informaçao de usuario -> git config --global user.email "trabalhojbm@gmail.com"
+seta informaçao de usuario -> git config --global user.name "batistaJeff"
 
-git config --global user.name "batistaJeff"
+clona o repositorio -> git clone https://github.com/username/repositorio.git
 
-git clone https://github.com/username/repositorio.git
+para adicionar arquivo no HEAD para commit -> git add [file]
 
-git add [file]
+para adicionar todos os aquivos -> git add .
 
-git add .
+para commitar -> git commit -a ""
 
-git commit -a ""
+para commitar -> git commit -a -m ''
 
-git commit -a -m ''
+pega tudo do servidor -> git pull origin [branch]
 
-git pull origin [branch]
+sobe tudo para o servidor -> git push origin [branch]
 
-git push origin [branch]
+mostra os commit -> git log
 
-git log
+mostra os commit com detalhes -> git whatchanged
 
-git whatchanged
+mostra os commit com muito mais detalhes -> git whatchanged -p
 
-git whatchanged -p
+verificar se esta -> git remote
 
-git remote
+verificar quais branch temos local e em qual estamos -> git branch
+
+cria uma branch -> git branch [nome da nova branch]
+
+muda de branch -> git checkout [nome da branch]
+
+
+
