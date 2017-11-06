@@ -1,13 +1,23 @@
+git config --global user.email "trabalhojbm@gmail.com"
+
+git config --global user.name "batistaJeff"
+
 git clone https://github.com/username/repositorio.git
 
 git add [file]
 
 git add .
 
+git commit -a ""
+
+git pull origin [branch]
+
+git push origin [branch]
+
 git log
 
 git whatchanged
 
 git whatchanged -p
- 
 
+git remote
